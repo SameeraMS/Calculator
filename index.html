@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<div class="container">
+    <div class="calculator">
+        <form>
+            <div class="display">
+                <input type="text" name="display" disabled>
+            </div>
+            <div>
+                <input type="button" value="AC" class="ac-btn operator1" id="btn1">
+                <input type="button" value="DE" id="btn2" class="operator1">
+                <input type="button" value="/" id="btn3" class="operator2">
+            </div>
+            <div>
+                <input type="button" value="7" id="btn4">
+                <input type="button" value="8" id="btn5">
+                <input type="button" value="9" id="btn6">
+                <input type="button" value="*" id="btn7" class="operator2">
+            </div>
+            <div>
+                <input type="button" value="4" id="btn8">
+                <input type="button" value="5" id="btn9">
+                <input type="button" value="6" id="btn10">
+                <input type="button" value="-" id="btn11" class="operator2">
+            </div>
+            <div>
+                <input type="button" value="1" id="btn12">
+                <input type="button" value="2" id="btn13">
+                <input type="button" value="3" id="btn14">
+                <input type="button" value="+" id="btn15" class="operator2">
+            </div>
+            <div>
+                <input type="button" value="00" id="btn16">
+                <input type="button" value="0" id="btn17">
+                <input type="button" value="." id="btn18">
+                <input type="button" value="=" id="btn19" class="operator3">
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
