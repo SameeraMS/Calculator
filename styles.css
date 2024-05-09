@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #03090a;
+    background: #010d2d;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -47,7 +47,7 @@ form .display input{
     flex: 1;
     font-size: 45px;
     box-shadow:none;
-    color:#000;
+    color: black;
 }
 
 form input.ac-btn{
